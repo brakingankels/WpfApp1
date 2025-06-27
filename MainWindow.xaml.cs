@@ -43,5 +43,10 @@ namespace CyberChatbot
             ActivityLogWindow logWindow = new();
             logWindow.Show();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var bot = new CyberSecurityChatbot();
+            bot.Run();
+        }
     }
 }
