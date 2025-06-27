@@ -1,0 +1,6 @@
+﻿<Window x:Class="CyberChatbot.AcWindow"
+        Title="Activity Log" Height="300" Width="400">
+    <Grid Margin="10">
+        <ListBox x:Name="LogList"/>
+    </Grid>
+</Window>

@@ -1,0 +1,8 @@
+﻿<Window x:Class="CyberChatbot.QuizWindow"
+        Title="Cybersecurity Quiz" Height="400" Width="600">
+    <Grid Margin="10">
+        <TextBlock x:Name="QuestionText" FontSize="16" TextWrapping="Wrap"/>
+        <ListBox x:Name="OptionsList" Margin="0,40,0,50"/>
+        <Button Content="Submit" Click="Submit_Click" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
